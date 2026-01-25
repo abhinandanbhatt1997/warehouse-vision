@@ -2,3 +2,10 @@ opencv-python
 numpy
 pyzbar
 python-dotenv
+
+
+opencv-contrib-python  # For advanced tracking algorithms
+scikit-learn           # For clustering and person re-identification
+scipy                  # For heatmap generation and smoothing
+pillow                 # For image processing utilities
+filterpy               # For Kalman filtering (smooth tracking)
