@@ -5,10 +5,69 @@ from datetime import datetime
 import time
 
 class EmployeeTracker:
-    def __init__(self, camera_id=0, idle_threshold_seconds=10):
-        self.camera = cv2.VideoCapture(camera_id)
-        self.camera.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-        self.camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+    def __init__(self, camera_id=0, idle_threshold_seconds=10, video_file=None):
+        self.camera = None
+        self.using_video_file = False
+        
+        # If video file specified, use it
+        if video_file:
+            print(f"Opening video file: {video_file}")
+            self.camera = cv2.VideoCapture(video_file)
+            if self.camera.isOpened():
+                self.using_video_file = True
+                print("✓ Video file opened successfully")
+            else:
+                raise RuntimeError(f"Failed to open video file: {video_file}")
+        else:
+            # Try different camera configurations
+            configs = [
+                (1, cv2.CAP_ANY, "video1 with AUTO backend"),
+                (0, cv2.CAP_ANY, "video0 with AUTO backend"),
+                (1, cv2.CAP_V4L2, "video1 with V4L2"),
+                (0, cv2.CAP_V4L2, "video0 with V4L2"),
+                (camera_id, cv2.CAP_ANY, f"video{camera_id} with AUTO"),
+            ]
+            
+            print("Searching for working camera configuration...")
+            
+            for idx, backend, name in configs:
+                print(f"Trying {name}...")
+                try:
+                    cap = cv2.VideoCapture(idx, backend)
+                    if cap.isOpened():
+                        ret, frame = cap.read()
+                        if ret:
+                            print(f"✓ SUCCESS: {name} works!")
+                            self.camera = cap
+                            break
+                        else:
+                            print(f"  ✗ Camera opens but can't read frames")
+                            cap.release()
+                    else:
+                        cap.release()
+                except Exception as e:
+                    print(f"  ✗ Error: {e}")
+                    continue
+            
+            if not self.camera or not self.camera.isOpened():
+                print("\n❌ No camera found!")
+                print("💡 TIP: Running in WSL? Use video file mode:")
+                print("   tracker = EmployeeTracker(video_file='test_video.mp4')")
+                raise RuntimeError("Failed to open camera")
+        
+        # Set camera properties
+        if not self.using_video_file:
+            self.camera.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+            self.camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+            self.camera.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+        
+        # Get actual resolution
+        actual_width = int(self.camera.get(cv2.CAP_PROP_FRAME_WIDTH))
+        actual_height = int(self.camera.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        self.frame_width = actual_width
+        self.frame_height = actual_height
+        print(f"Resolution: {actual_width}x{actual_height}")
+        print("Ready!")
         
         self.idle_threshold = idle_threshold_seconds
         self.font = cv2.FONT_HERSHEY_SIMPLEX
@@ -24,8 +83,8 @@ class EmployeeTracker:
         self.max_disappeared = 30  # frames before removing an employee
         
         # Heatmap setup
-        self.heatmap_resolution = (64, 36)  # Low res for performance
-        self.heatmap = np.zeros(self.heatmap_resolution, dtype=np.float32)
+        self.heatmap_resolution = (64, 36)  # Low res for performance (width, height)
+        self.heatmap = np.zeros((self.heatmap_resolution[1], self.heatmap_resolution[0]), dtype=np.float32)  # (height, width)
         self.frame_height = 720
         self.frame_width = 1280
         
@@ -207,11 +266,11 @@ class EmployeeTracker:
             # Get current position
             x, y = emp_data['positions'][-1]
             
-            # Convert to heatmap coordinates
+            # Convert to heatmap coordinates (note: width=64, height=36)
             hmap_x = int((x / self.frame_width) * self.heatmap_resolution[0])
             hmap_y = int((y / self.frame_height) * self.heatmap_resolution[1])
             
-            # Clamp to valid range
+            # Clamp to valid range (heatmap is [height, width] in numpy)
             hmap_x = max(0, min(hmap_x, self.heatmap_resolution[0] - 1))
             hmap_y = max(0, min(hmap_y, self.heatmap_resolution[1] - 1))
             
@@ -223,37 +282,32 @@ class EmployeeTracker:
             for dy in range(-2, 3):
                 for dx in range(-2, 3):
                     ny, nx = hmap_y + dy, hmap_x + dx
-                    if 0 <= ny < self.heatmap_resolution[1] and 0 <= nx < self.heatmap_resolution[0]:
+                    # Check bounds (numpy indexing is [row, col] = [y, x])
+                    if 0 <= ny < self.heatmap.shape[0] and 0 <= nx < self.heatmap.shape[1]:
                         dist = np.sqrt(dx*dx + dy*dy)
                         weight = np.exp(-dist / 2.0)
                         self.heatmap[ny, nx] = min(1.0, self.heatmap[ny, nx] + intensity * weight * 0.1)
     
     def _draw_heatmap_overlay(self, frame):
         """Draw heatmap overlay on frame"""
-        # Resize heatmap to frame size
-        heatmap_resized = cv2.resize(self.heatmap, (self.frame_width, self.frame_height))
+        # Get actual frame dimensions
+        frame_h, frame_w = frame.shape[:2]
         
-        # Convert to color (green -> yellow -> red)
-        heatmap_colored = np.zeros((self.frame_height, self.frame_width, 3), dtype=np.uint8)
+        # Resize heatmap to match frame size
+        heatmap_resized = cv2.resize(self.heatmap, (frame_w, frame_h))
         
-        for i in range(self.frame_height):
-            for j in range(self.frame_width):
-                intensity = heatmap_resized[i, j]
-                if intensity < 0.5:
-                    # Green to yellow
-                    heatmap_colored[i, j] = [0, int(255 * (1 - intensity * 2)), int(255 * intensity * 2)]
-                else:
-                    # Yellow to red
-                    heatmap_colored[i, j] = [0, int(255 * (2 - intensity * 2)), 255]
+        # Convert to 8-bit and apply colormap
+        heatmap_8bit = np.uint8(255 * heatmap_resized)
+        heatmap_colored = cv2.applyColorMap(heatmap_8bit, cv2.COLORMAP_JET)
         
-        # Blend with original frame
-        mask = (heatmap_resized > 0.01).astype(np.uint8) * 255
-        mask_3channel = cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)
+        # Create mask for blending (only where heat exists)
+        mask = heatmap_resized > 0.01
         
-        overlay = cv2.addWeighted(frame, 0.7, heatmap_colored, 0.3, 0)
-        frame = np.where(mask_3channel > 0, overlay, frame)
+        # Blend heatmap with original frame
+        result = frame.copy()
+        result[mask] = cv2.addWeighted(frame, 0.7, heatmap_colored, 0.3, 0)[mask]
         
-        return frame
+        return result
     
     def run(self):
         """Main tracking loop"""
@@ -351,6 +405,11 @@ class EmployeeTracker:
                 self.running = False
             elif key == ord('h'):
                 show_heatmap = not show_heatmap
+            elif key == ord('r') and self.using_video_file:
+                print("Restarting video...")
+                self.camera.set(cv2.CAP_PROP_POS_FRAMES, 0)
+                self.employees.clear()
+                self.heatmap = np.zeros((self.heatmap_resolution[1], self.heatmap_resolution[0]), dtype=np.float32)
         
         self.cleanup()
     
@@ -361,5 +420,16 @@ class EmployeeTracker:
 
 
 if __name__ == "__main__":
-    tracker = EmployeeTracker(idle_threshold_seconds=10)
+    import sys
+    
+    # Check for video file argument
+    if len(sys.argv) > 1:
+        video_file = sys.argv[1]
+        print(f"Using video file: {video_file}")
+        tracker = EmployeeTracker(video_file=video_file, idle_threshold_seconds=10)
+    else:
+        print("No video file specified, trying camera...")
+        print("TIP: To use a video file, run: python3 employee_tracker.py your_video.mp4")
+        tracker = EmployeeTracker(idle_threshold_seconds=10)
+    
     tracker.run()
