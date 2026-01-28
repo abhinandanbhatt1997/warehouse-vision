@@ -1,0 +1,5795 @@
+{
+  "session_id": "20260128_064039",
+  "start_time": "2026-01-28T06:40:39.847767",
+  "idle_threshold": 10,
+  "employees": {
+    "1": {
+      "first_seen": 1769582441.020468,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "2": {
+      "first_seen": 1769582442.2821622,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "3": {
+      "first_seen": 1769582446.3405502,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "4": {
+      "first_seen": 1769582446.4034095,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "5": {
+      "first_seen": 1769582447.7398427,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "6": {
+      "first_seen": 1769582448.1578696,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "7": {
+      "first_seen": 1769582448.418641,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "8": {
+      "first_seen": 1769582452.6888528,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "9": {
+      "first_seen": 1769582459.8024497,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "10": {
+      "first_seen": 1769582459.8025239,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "11": {
+      "first_seen": 1769582460.0174909,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "12": {
+      "first_seen": 1769582460.5948217,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "13": {
+      "first_seen": 1769582462.4824162,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "14": {
+      "first_seen": 1769582463.0419624,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "15": {
+      "first_seen": 1769582463.4751074,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "16": {
+      "first_seen": 1769582466.303995,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "17": {
+      "first_seen": 1769582467.088066,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "18": {
+      "first_seen": 1769582467.147782,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "19": {
+      "first_seen": 1769582467.272714,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "20": {
+      "first_seen": 1769582467.838736,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "21": {
+      "first_seen": 1769582471.6264868,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "22": {
+      "first_seen": 1769582473.6652474,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "23": {
+      "first_seen": 1769582474.2601566,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "24": {
+      "first_seen": 1769582481.8446686,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "25": {
+      "first_seen": 1769582482.0321026,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "26": {
+      "first_seen": 1769582484.070083,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "27": {
+      "first_seen": 1769582484.6009579,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "28": {
+      "first_seen": 1769582485.7429466,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "29": {
+      "first_seen": 1769582486.8821797,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "30": {
+      "first_seen": 1769582489.3028643,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "31": {
+      "first_seen": 1769582493.2797449,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "32": {
+      "first_seen": 1769582493.9446185,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "33": {
+      "first_seen": 1769582496.1556034,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "34": {
+      "first_seen": 1769582499.8383384,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "35": {
+      "first_seen": 1769582499.9818854,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "36": {
+      "first_seen": 1769582501.0249927,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "37": {
+      "first_seen": 1769582501.1608844,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "38": {
+      "first_seen": 1769582501.428384,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "39": {
+      "first_seen": 1769582501.816461,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "40": {
+      "first_seen": 1769582501.9468284,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "41": {
+      "first_seen": 1769582502.0115752,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "42": {
+      "first_seen": 1769582504.5986052,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "43": {
+      "first_seen": 1769582505.1978903,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "44": {
+      "first_seen": 1769582505.8378408,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "45": {
+      "first_seen": 1769582506.0474842,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "46": {
+      "first_seen": 1769582507.0287373,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "47": {
+      "first_seen": 1769582508.8256476,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "48": {
+      "first_seen": 1769582509.089507,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "49": {
+      "first_seen": 1769582509.6882873,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "50": {
+      "first_seen": 1769582510.3778548,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "51": {
+      "first_seen": 1769582510.6451607,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "52": {
+      "first_seen": 1769582510.7787127,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "53": {
+      "first_seen": 1769582511.0519316,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "54": {
+      "first_seen": 1769582512.7827976,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "55": {
+      "first_seen": 1769582513.8408988,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "56": {
+      "first_seen": 1769582516.3467624,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "57": {
+      "first_seen": 1769582516.5439777,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "58": {
+      "first_seen": 1769582516.6129165,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "59": {
+      "first_seen": 1769582517.430127,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "60": {
+      "first_seen": 1769582520.2161238,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "61": {
+      "first_seen": 1769582520.9983315,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "62": {
+      "first_seen": 1769582522.43174,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "63": {
+      "first_seen": 1769582522.9831357,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "64": {
+      "first_seen": 1769582522.983172,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "65": {
+      "first_seen": 1769582525.0397785,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "66": {
+      "first_seen": 1769582526.8875117,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "67": {
+      "first_seen": 1769582527.0263743,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "68": {
+      "first_seen": 1769582532.2323668,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "69": {
+      "first_seen": 1769582533.6823254,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "70": {
+      "first_seen": 1769582534.1625047,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "71": {
+      "first_seen": 1769582534.3146756,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "72": {
+      "first_seen": 1769582535.3026788,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "73": {
+      "first_seen": 1769582538.483399,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "74": {
+      "first_seen": 1769582539.759402,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "75": {
+      "first_seen": 1769582542.626961,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "76": {
+      "first_seen": 1769582545.741663,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "77": {
+      "first_seen": 1769582546.9039104,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "78": {
+      "first_seen": 1769582548.887412,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "79": {
+      "first_seen": 1769582549.1420617,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "80": {
+      "first_seen": 1769582549.5812514,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "81": {
+      "first_seen": 1769582551.2834237,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "82": {
+      "first_seen": 1769582553.1146462,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "83": {
+      "first_seen": 1769582555.058861,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "84": {
+      "first_seen": 1769582560.6545253,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "85": {
+      "first_seen": 1769582564.4180162,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "86": {
+      "first_seen": 1769582565.1341732,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "87": {
+      "first_seen": 1769582567.6867728,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "88": {
+      "first_seen": 1769582575.2566292,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "89": {
+      "first_seen": 1769582576.7222428,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "90": {
+      "first_seen": 1769582578.2252336,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "91": {
+      "first_seen": 1769582582.6300044,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "92": {
+      "first_seen": 1769582583.6104834,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "93": {
+      "first_seen": 1769582592.086841,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "94": {
+      "first_seen": 1769582599.188502,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "95": {
+      "first_seen": 1769582600.9928024,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "96": {
+      "first_seen": 1769582602.9989214,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "97": {
+      "first_seen": 1769582604.5811267,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "98": {
+      "first_seen": 1769582604.8027904,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "99": {
+      "first_seen": 1769582607.8950465,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "100": {
+      "first_seen": 1769582608.1795335,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "101": {
+      "first_seen": 1769582608.3201659,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "102": {
+      "first_seen": 1769582610.2757463,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "103": {
+      "first_seen": 1769582611.4544938,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "104": {
+      "first_seen": 1769582611.534552,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "105": {
+      "first_seen": 1769582612.6878614,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "106": {
+      "first_seen": 1769582616.9286478,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "107": {
+      "first_seen": 1769582617.0836866,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "108": {
+      "first_seen": 1769582619.6328948,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "109": {
+      "first_seen": 1769582620.3840246,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "110": {
+      "first_seen": 1769582620.5314035,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "111": {
+      "first_seen": 1769582622.7905035,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "112": {
+      "first_seen": 1769582623.7117226,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "113": {
+      "first_seen": 1769582627.8588414,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "114": {
+      "first_seen": 1769582629.7691638,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "115": {
+      "first_seen": 1769582630.4110262,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "116": {
+      "first_seen": 1769582633.5884614,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "117": {
+      "first_seen": 1769582635.4386926,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "118": {
+      "first_seen": 1769582636.8865027,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "119": {
+      "first_seen": 1769582637.0988874,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "120": {
+      "first_seen": 1769582641.278147,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "121": {
+      "first_seen": 1769582643.6281621,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "122": {
+      "first_seen": 1769582644.4950006,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "123": {
+      "first_seen": 1769582644.5719967,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "124": {
+      "first_seen": 1769582644.5720534,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "125": {
+      "first_seen": 1769582644.6502976,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "126": {
+      "first_seen": 1769582644.6503272,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "127": {
+      "first_seen": 1769582645.62006,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "128": {
+      "first_seen": 1769582647.7203918,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "129": {
+      "first_seen": 1769582648.9085104,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "130": {
+      "first_seen": 1769582649.0558066,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "131": {
+      "first_seen": 1769582649.0558543,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "132": {
+      "first_seen": 1769582649.3382561,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "133": {
+      "first_seen": 1769582649.886637,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "134": {
+      "first_seen": 1769582650.1625314,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "135": {
+      "first_seen": 1769582650.3067322,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "136": {
+      "first_seen": 1769582650.3891265,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "137": {
+      "first_seen": 1769582652.4209778,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "138": {
+      "first_seen": 1769582652.7222924,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "139": {
+      "first_seen": 1769582653.1049118,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "140": {
+      "first_seen": 1769582656.1038058,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "141": {
+      "first_seen": 1769582657.54563,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "142": {
+      "first_seen": 1769582658.2027714,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "143": {
+      "first_seen": 1769582660.70557,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "144": {
+      "first_seen": 1769582660.9308548,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "145": {
+      "first_seen": 1769582666.0551877,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "146": {
+      "first_seen": 1769582673.0020995,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "147": {
+      "first_seen": 1769582676.2271824,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "148": {
+      "first_seen": 1769582676.4372067,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "149": {
+      "first_seen": 1769582677.2002566,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "150": {
+      "first_seen": 1769582687.0743723,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "151": {
+      "first_seen": 1769582687.7593024,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "152": {
+      "first_seen": 1769582688.8503754,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "153": {
+      "first_seen": 1769582692.2919953,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "154": {
+      "first_seen": 1769582693.0667305,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "155": {
+      "first_seen": 1769582693.143373,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "156": {
+      "first_seen": 1769582693.143407,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "157": {
+      "first_seen": 1769582700.4521673,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "158": {
+      "first_seen": 1769582703.0911484,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "159": {
+      "first_seen": 1769582712.5288122,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "160": {
+      "first_seen": 1769582713.596996,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "161": {
+      "first_seen": 1769582717.9761584,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "162": {
+      "first_seen": 1769582718.0546632,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "163": {
+      "first_seen": 1769582726.452765,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "164": {
+      "first_seen": 1769582726.8487127,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "165": {
+      "first_seen": 1769582727.3234205,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "166": {
+      "first_seen": 1769582728.5313184,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "167": {
+      "first_seen": 1769582731.6458013,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "168": {
+      "first_seen": 1769582733.467211,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "169": {
+      "first_seen": 1769582735.916862,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "170": {
+      "first_seen": 1769582737.9737089,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "171": {
+      "first_seen": 1769582737.9737594,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "172": {
+      "first_seen": 1769582738.2088542,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "173": {
+      "first_seen": 1769582745.2338686,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "174": {
+      "first_seen": 1769582753.5197084,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "175": {
+      "first_seen": 1769582754.7008336,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "176": {
+      "first_seen": 1769582759.4843166,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "177": {
+      "first_seen": 1769582760.8983212,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "178": {
+      "first_seen": 1769582762.473661,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "179": {
+      "first_seen": 1769582762.5520632,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "180": {
+      "first_seen": 1769582767.6577747,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "181": {
+      "first_seen": 1769582768.686094,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "182": {
+      "first_seen": 1769582769.931613,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "183": {
+      "first_seen": 1769582770.7302198,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "184": {
+      "first_seen": 1769582771.2915678,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "185": {
+      "first_seen": 1769582771.4940655,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "186": {
+      "first_seen": 1769582771.7032373,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "187": {
+      "first_seen": 1769582772.2731164,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "188": {
+      "first_seen": 1769582772.7684836,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "189": {
+      "first_seen": 1769582773.051287,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "190": {
+      "first_seen": 1769582773.4772954,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "191": {
+      "first_seen": 1769582773.7593658,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "192": {
+      "first_seen": 1769582773.906704,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "193": {
+      "first_seen": 1769582773.9802203,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "194": {
+      "first_seen": 1769582775.7608852,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "195": {
+      "first_seen": 1769582776.4682527,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "196": {
+      "first_seen": 1769582777.1049297,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "197": {
+      "first_seen": 1769582777.8784823,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "198": {
+      "first_seen": 1769582779.4506414,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "199": {
+      "first_seen": 1769582781.6396906,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "200": {
+      "first_seen": 1769582787.4567344,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "201": {
+      "first_seen": 1769582787.456791,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "202": {
+      "first_seen": 1769582787.7488747,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "203": {
+      "first_seen": 1769582788.1660135,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "204": {
+      "first_seen": 1769582790.7422712,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "205": {
+      "first_seen": 1769582795.4504533,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "206": {
+      "first_seen": 1769582798.7590997,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "207": {
+      "first_seen": 1769582800.7558558,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "208": {
+      "first_seen": 1769582801.4740803,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "209": {
+      "first_seen": 1769582802.7112794,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "210": {
+      "first_seen": 1769582803.51785,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "211": {
+      "first_seen": 1769582806.5803185,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "212": {
+      "first_seen": 1769582808.155394,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "213": {
+      "first_seen": 1769582809.2608676,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "214": {
+      "first_seen": 1769582816.963605,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "215": {
+      "first_seen": 1769582817.3187256,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "216": {
+      "first_seen": 1769582819.5568132,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "217": {
+      "first_seen": 1769582820.392426,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "218": {
+      "first_seen": 1769582824.9470317,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "219": {
+      "first_seen": 1769582832.0473077,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "220": {
+      "first_seen": 1769582834.4111965,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "221": {
+      "first_seen": 1769582835.056812,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "222": {
+      "first_seen": 1769582836.6898034,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "223": {
+      "first_seen": 1769582844.8039558,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "224": {
+      "first_seen": 1769582845.194288,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "225": {
+      "first_seen": 1769582848.7888527,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "226": {
+      "first_seen": 1769582850.1142318,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "227": {
+      "first_seen": 1769582852.6107306,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "228": {
+      "first_seen": 1769582854.9678795,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "229": {
+      "first_seen": 1769582856.6311932,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "230": {
+      "first_seen": 1769582860.3751452,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "231": {
+      "first_seen": 1769582862.8179846,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "232": {
+      "first_seen": 1769582864.1952677,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "233": {
+      "first_seen": 1769582868.6068552,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "234": {
+      "first_seen": 1769582876.3917282,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "235": {
+      "first_seen": 1769582879.5118074,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "236": {
+      "first_seen": 1769582886.1278071,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "237": {
+      "first_seen": 1769582886.1279328,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "238": {
+      "first_seen": 1769582889.1822293,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "239": {
+      "first_seen": 1769582891.538875,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "240": {
+      "first_seen": 1769582894.4399936,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "241": {
+      "first_seen": 1769582894.5806358,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "242": {
+      "first_seen": 1769582894.7906213,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "243": {
+      "first_seen": 1769582895.3354986,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "244": {
+      "first_seen": 1769582895.895031,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "245": {
+      "first_seen": 1769582898.3149512,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "246": {
+      "first_seen": 1769582898.8111165,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "247": {
+      "first_seen": 1769582898.8111808,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "248": {
+      "first_seen": 1769582899.2639234,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "249": {
+      "first_seen": 1769582899.2639542,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "250": {
+      "first_seen": 1769582899.9395156,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "251": {
+      "first_seen": 1769582899.9395711,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "252": {
+      "first_seen": 1769582901.0890052,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "253": {
+      "first_seen": 1769582902.8630407,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "254": {
+      "first_seen": 1769582907.46445,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "255": {
+      "first_seen": 1769582908.7451735,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "256": {
+      "first_seen": 1769582908.8960829,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "257": {
+      "first_seen": 1769582909.6419528,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "258": {
+      "first_seen": 1769582910.0937061,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "259": {
+      "first_seen": 1769582910.3923514,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "260": {
+      "first_seen": 1769582910.465445,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "261": {
+      "first_seen": 1769582912.6176229,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "262": {
+      "first_seen": 1769582913.4537354,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "263": {
+      "first_seen": 1769582917.0683115,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "264": {
+      "first_seen": 1769582917.214638,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "265": {
+      "first_seen": 1769582920.6171782,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "266": {
+      "first_seen": 1769582924.494367,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "267": {
+      "first_seen": 1769582925.8206086,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "268": {
+      "first_seen": 1769582927.5122523,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "269": {
+      "first_seen": 1769582927.8278892,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "270": {
+      "first_seen": 1769582929.7521818,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "271": {
+      "first_seen": 1769582931.5924797,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "272": {
+      "first_seen": 1769582933.3064198,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "273": {
+      "first_seen": 1769582935.936887,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "274": {
+      "first_seen": 1769582937.5589736,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "275": {
+      "first_seen": 1769582940.0563715,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "276": {
+      "first_seen": 1769582943.6806686,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "277": {
+      "first_seen": 1769582944.114289,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "278": {
+      "first_seen": 1769582945.4704936,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "279": {
+      "first_seen": 1769582945.6144547,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "280": {
+      "first_seen": 1769582949.3026192,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "281": {
+      "first_seen": 1769582950.3385243,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "282": {
+      "first_seen": 1769582950.9696674,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "283": {
+      "first_seen": 1769582951.6314921,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "284": {
+      "first_seen": 1769582952.0759223,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "285": {
+      "first_seen": 1769582954.7139804,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "286": {
+      "first_seen": 1769582958.2225835,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "287": {
+      "first_seen": 1769582962.453773,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "288": {
+      "first_seen": 1769582964.155953,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "289": {
+      "first_seen": 1769582964.395265,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "290": {
+      "first_seen": 1769582964.4743888,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "291": {
+      "first_seen": 1769582964.793727,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "292": {
+      "first_seen": 1769582964.877514,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "293": {
+      "first_seen": 1769582966.9268997,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "294": {
+      "first_seen": 1769582968.9473798,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "295": {
+      "first_seen": 1769582970.1737905,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "296": {
+      "first_seen": 1769582970.6815794,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "297": {
+      "first_seen": 1769582974.0268703,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "298": {
+      "first_seen": 1769582975.4631922,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "299": {
+      "first_seen": 1769582980.1966343,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "300": {
+      "first_seen": 1769582981.7024486,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "301": {
+      "first_seen": 1769582982.0099156,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "302": {
+      "first_seen": 1769582987.7094743,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "303": {
+      "first_seen": 1769582992.0719197,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "304": {
+      "first_seen": 1769582992.150554,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "305": {
+      "first_seen": 1769582994.281584,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "306": {
+      "first_seen": 1769582994.4325638,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "307": {
+      "first_seen": 1769582996.904467,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "308": {
+      "first_seen": 1769582998.4319425,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "309": {
+      "first_seen": 1769582999.8910248,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "310": {
+      "first_seen": 1769583001.623485,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "311": {
+      "first_seen": 1769583003.232056,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "312": {
+      "first_seen": 1769583008.6119645,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "313": {
+      "first_seen": 1769583013.9538865,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "314": {
+      "first_seen": 1769583015.7001207,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "315": {
+      "first_seen": 1769583021.5187125,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "316": {
+      "first_seen": 1769583022.15534,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "317": {
+      "first_seen": 1769583025.134191,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "318": {
+      "first_seen": 1769583030.8932428,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "319": {
+      "first_seen": 1769583035.7933066,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "320": {
+      "first_seen": 1769583041.3527894,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "321": {
+      "first_seen": 1769583044.6073058,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "322": {
+      "first_seen": 1769583046.110531,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "323": {
+      "first_seen": 1769583050.8389418,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "324": {
+      "first_seen": 1769583051.4960132,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "325": {
+      "first_seen": 1769583053.6494894,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "326": {
+      "first_seen": 1769583055.2716172,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "327": {
+      "first_seen": 1769583059.667616,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "328": {
+      "first_seen": 1769583065.8463764,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "329": {
+      "first_seen": 1769583072.8696368,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "330": {
+      "first_seen": 1769583076.7022772,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "331": {
+      "first_seen": 1769583078.5472896,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "332": {
+      "first_seen": 1769583080.2903633,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "333": {
+      "first_seen": 1769583087.3927412,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "334": {
+      "first_seen": 1769583092.8458972,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "335": {
+      "first_seen": 1769583095.008538,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "336": {
+      "first_seen": 1769583096.1612244,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "337": {
+      "first_seen": 1769583101.3955238,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "338": {
+      "first_seen": 1769583107.0092304,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "339": {
+      "first_seen": 1769583107.8991308,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "340": {
+      "first_seen": 1769583112.0703297,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "341": {
+      "first_seen": 1769583118.3321836,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "342": {
+      "first_seen": 1769583119.1637387,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "343": {
+      "first_seen": 1769583123.8955772,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "344": {
+      "first_seen": 1769583124.6161132,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "345": {
+      "first_seen": 1769583127.980119,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "346": {
+      "first_seen": 1769583137.3958073,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "347": {
+      "first_seen": 1769583138.8394868,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "348": {
+      "first_seen": 1769583140.1726487,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "349": {
+      "first_seen": 1769583144.3655589,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "350": {
+      "first_seen": 1769583147.1449003,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "351": {
+      "first_seen": 1769583147.144967,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "352": {
+      "first_seen": 1769583152.1699924,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "353": {
+      "first_seen": 1769583152.8929422,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "354": {
+      "first_seen": 1769583155.070466,
+      "total_idle_time": 0,
+      "idle_events": 1,
+      "last_status": "ACTIVE"
+    },
+    "355": {
+      "first_seen": 1769583163.012134,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "356": {
+      "first_seen": 1769583165.757815,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "357": {
+      "first_seen": 1769583171.9225292,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "358": {
+      "first_seen": 1769583172.0968852,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "359": {
+      "first_seen": 1769583174.7776773,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "360": {
+      "first_seen": 1769583177.325187,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "361": {
+      "first_seen": 1769583178.0651233,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "362": {
+      "first_seen": 1769583178.9577847,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "363": {
+      "first_seen": 1769583180.1004117,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "364": {
+      "first_seen": 1769583180.7870498,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "365": {
+      "first_seen": 1769583184.5715005,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "366": {
+      "first_seen": 1769583187.2579188,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "367": {
+      "first_seen": 1769583187.9760423,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "368": {
+      "first_seen": 1769583193.0515938,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "369": {
+      "first_seen": 1769583194.3315275,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "370": {
+      "first_seen": 1769583198.7318707,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "371": {
+      "first_seen": 1769583198.8034112,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "372": {
+      "first_seen": 1769583202.613267,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "373": {
+      "first_seen": 1769583203.325062,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "374": {
+      "first_seen": 1769583205.9321342,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "375": {
+      "first_seen": 1769583214.3900828,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "376": {
+      "first_seen": 1769583216.741497,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "377": {
+      "first_seen": 1769583220.36957,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "378": {
+      "first_seen": 1769583221.9096305,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "379": {
+      "first_seen": 1769583229.8456943,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "380": {
+      "first_seen": 1769583231.0579603,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "381": {
+      "first_seen": 1769583231.2105536,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "382": {
+      "first_seen": 1769583237.94278,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "383": {
+      "first_seen": 1769583241.9301407,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "384": {
+      "first_seen": 1769583245.5132868,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "385": {
+      "first_seen": 1769583248.5584373,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "386": {
+      "first_seen": 1769583251.8873165,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "387": {
+      "first_seen": 1769583259.6888003,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "388": {
+      "first_seen": 1769583263.1055186,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "389": {
+      "first_seen": 1769583263.8601315,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "390": {
+      "first_seen": 1769583265.7858105,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "391": {
+      "first_seen": 1769583267.7263262,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "392": {
+      "first_seen": 1769583271.712914,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "393": {
+      "first_seen": 1769583278.9924648,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "394": {
+      "first_seen": 1769583280.952177,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "395": {
+      "first_seen": 1769583283.3553333,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "396": {
+      "first_seen": 1769583286.5721707,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "397": {
+      "first_seen": 1769583291.416083,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "398": {
+      "first_seen": 1769583291.4886856,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "399": {
+      "first_seen": 1769583292.138731,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "400": {
+      "first_seen": 1769583293.2072465,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "401": {
+      "first_seen": 1769583300.1891096,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "402": {
+      "first_seen": 1769583302.171477,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "403": {
+      "first_seen": 1769583305.4887235,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "404": {
+      "first_seen": 1769583306.1200266,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "405": {
+      "first_seen": 1769583309.3896978,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "406": {
+      "first_seen": 1769583316.551463,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "407": {
+      "first_seen": 1769583317.759036,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "408": {
+      "first_seen": 1769583318.9665952,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "409": {
+      "first_seen": 1769583320.752568,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "410": {
+      "first_seen": 1769583326.5250876,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "411": {
+      "first_seen": 1769583332.362318,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "412": {
+      "first_seen": 1769583335.9575608,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "413": {
+      "first_seen": 1769583342.0736163,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "414": {
+      "first_seen": 1769583345.335099,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "415": {
+      "first_seen": 1769583347.8186865,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "416": {
+      "first_seen": 1769583349.748128,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "417": {
+      "first_seen": 1769583352.700882,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "418": {
+      "first_seen": 1769583356.3808167,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "419": {
+      "first_seen": 1769583356.6726043,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "420": {
+      "first_seen": 1769583360.242704,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "421": {
+      "first_seen": 1769583360.3901982,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "422": {
+      "first_seen": 1769583361.6680932,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "423": {
+      "first_seen": 1769583365.5319602,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "424": {
+      "first_seen": 1769583373.5237067,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "425": {
+      "first_seen": 1769583383.7176294,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "426": {
+      "first_seen": 1769583388.73751,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "427": {
+      "first_seen": 1769583389.030223,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "428": {
+      "first_seen": 1769583392.6669905,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "429": {
+      "first_seen": 1769583398.7157516,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "430": {
+      "first_seen": 1769583421.9417484,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "431": {
+      "first_seen": 1769583424.1044488,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "432": {
+      "first_seen": 1769583436.5032473,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "433": {
+      "first_seen": 1769583441.567589,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "434": {
+      "first_seen": 1769583441.9389014,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "435": {
+      "first_seen": 1769583444.0568485,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "436": {
+      "first_seen": 1769583444.929788,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "437": {
+      "first_seen": 1769583445.0033913,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "438": {
+      "first_seen": 1769583447.8709443,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "439": {
+      "first_seen": 1769583448.2097843,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "440": {
+      "first_seen": 1769583448.3804648,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "441": {
+      "first_seen": 1769583453.2323205,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "442": {
+      "first_seen": 1769583453.7847052,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "443": {
+      "first_seen": 1769583455.6611784,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "444": {
+      "first_seen": 1769583459.2715368,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "445": {
+      "first_seen": 1769583460.220053,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "446": {
+      "first_seen": 1769583461.3187273,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "447": {
+      "first_seen": 1769583464.8378885,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "448": {
+      "first_seen": 1769583465.9207678,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "449": {
+      "first_seen": 1769583470.5665839,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "450": {
+      "first_seen": 1769583473.5027037,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "451": {
+      "first_seen": 1769583477.7925038,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "452": {
+      "first_seen": 1769583479.1484237,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "453": {
+      "first_seen": 1769583483.6490464,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "454": {
+      "first_seen": 1769583486.8352523,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "455": {
+      "first_seen": 1769583492.0853567,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "456": {
+      "first_seen": 1769583492.4570768,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "457": {
+      "first_seen": 1769583492.5349722,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "458": {
+      "first_seen": 1769583492.7669044,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "459": {
+      "first_seen": 1769583494.845912,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "460": {
+      "first_seen": 1769583494.9237635,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "461": {
+      "first_seen": 1769583499.0782006,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "462": {
+      "first_seen": 1769583499.229232,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "463": {
+      "first_seen": 1769583499.9227371,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "464": {
+      "first_seen": 1769583500.6134286,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "465": {
+      "first_seen": 1769583507.2351592,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "466": {
+      "first_seen": 1769583510.6828427,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "467": {
+      "first_seen": 1769583514.2526312,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "468": {
+      "first_seen": 1769583514.7165134,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "469": {
+      "first_seen": 1769583515.0440085,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "470": {
+      "first_seen": 1769583516.530837,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "471": {
+      "first_seen": 1769583518.8141646,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "472": {
+      "first_seen": 1769583521.4734654,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "473": {
+      "first_seen": 1769583526.7577035,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "474": {
+      "first_seen": 1769583527.4161446,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "475": {
+      "first_seen": 1769583527.8256617,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "476": {
+      "first_seen": 1769583530.9020872,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "477": {
+      "first_seen": 1769583531.1279833,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "478": {
+      "first_seen": 1769583533.5913088,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "479": {
+      "first_seen": 1769583536.8669004,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "480": {
+      "first_seen": 1769583541.189706,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "481": {
+      "first_seen": 1769583550.5083086,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "482": {
+      "first_seen": 1769583551.954265,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "483": {
+      "first_seen": 1769583552.126481,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "484": {
+      "first_seen": 1769583552.387782,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "485": {
+      "first_seen": 1769583554.8383439,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "486": {
+      "first_seen": 1769583555.9104993,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "487": {
+      "first_seen": 1769583557.8021054,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "488": {
+      "first_seen": 1769583557.9500744,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "489": {
+      "first_seen": 1769583564.718695,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "490": {
+      "first_seen": 1769583570.5410626,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "491": {
+      "first_seen": 1769583571.0499878,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "492": {
+      "first_seen": 1769583572.7762353,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "493": {
+      "first_seen": 1769583573.3743796,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "494": {
+      "first_seen": 1769583573.5271013,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "495": {
+      "first_seen": 1769583574.0568194,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "496": {
+      "first_seen": 1769583574.5858288,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "497": {
+      "first_seen": 1769583584.9347866,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "498": {
+      "first_seen": 1769583585.6244283,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "499": {
+      "first_seen": 1769583587.625437,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "500": {
+      "first_seen": 1769583590.220702,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "501": {
+      "first_seen": 1769583594.2965817,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "502": {
+      "first_seen": 1769583598.1942124,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "503": {
+      "first_seen": 1769583600.7855291,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "504": {
+      "first_seen": 1769583601.2515655,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "505": {
+      "first_seen": 1769583601.7167733,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "506": {
+      "first_seen": 1769583601.945559,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "507": {
+      "first_seen": 1769583602.7373314,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "508": {
+      "first_seen": 1769583605.3932192,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "509": {
+      "first_seen": 1769583607.35537,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "510": {
+      "first_seen": 1769583607.9952073,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "511": {
+      "first_seen": 1769583609.3927126,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "512": {
+      "first_seen": 1769583609.6185496,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "513": {
+      "first_seen": 1769583613.3958325,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "514": {
+      "first_seen": 1769583614.6690314,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "515": {
+      "first_seen": 1769583617.0687962,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "516": {
+      "first_seen": 1769583619.1756098,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "517": {
+      "first_seen": 1769583619.646433,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "518": {
+      "first_seen": 1769583620.5076976,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "519": {
+      "first_seen": 1769583620.825349,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "520": {
+      "first_seen": 1769583623.3209164,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "521": {
+      "first_seen": 1769583624.7808595,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "522": {
+      "first_seen": 1769583625.3918593,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "523": {
+      "first_seen": 1769583629.2993124,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "524": {
+      "first_seen": 1769583632.7625425,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "525": {
+      "first_seen": 1769583636.4091568,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "526": {
+      "first_seen": 1769583640.3177748,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "527": {
+      "first_seen": 1769583642.8752558,
+      "total_idle_time": 0,
+      "idle_events": 2,
+      "last_status": "IDLE"
+    },
+    "528": {
+      "first_seen": 1769583646.7437646,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "529": {
+      "first_seen": 1769583649.37151,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "530": {
+      "first_seen": 1769583649.675239,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "531": {
+      "first_seen": 1769583651.0491042,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "532": {
+      "first_seen": 1769583651.4850597,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "533": {
+      "first_seen": 1769583652.2596714,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "534": {
+      "first_seen": 1769583653.5965092,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "535": {
+      "first_seen": 1769583655.9779024,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "536": {
+      "first_seen": 1769583658.1610663,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "537": {
+      "first_seen": 1769583658.8618062,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "538": {
+      "first_seen": 1769583660.079455,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "539": {
+      "first_seen": 1769583662.521714,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "540": {
+      "first_seen": 1769583663.943147,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "541": {
+      "first_seen": 1769583667.542875,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "542": {
+      "first_seen": 1769583667.7016711,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "543": {
+      "first_seen": 1769583667.9450226,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "544": {
+      "first_seen": 1769583669.6501331,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "545": {
+      "first_seen": 1769583669.9838681,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "546": {
+      "first_seen": 1769583672.1257331,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "547": {
+      "first_seen": 1769583672.3017707,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "548": {
+      "first_seen": 1769583672.9937878,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "549": {
+      "first_seen": 1769583674.4039404,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "550": {
+      "first_seen": 1769583677.0118036,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "551": {
+      "first_seen": 1769583679.123304,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "552": {
+      "first_seen": 1769583686.0040667,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "553": {
+      "first_seen": 1769583688.1632335,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "554": {
+      "first_seen": 1769583689.7714307,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "555": {
+      "first_seen": 1769583691.661751,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "556": {
+      "first_seen": 1769583691.7521715,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "557": {
+      "first_seen": 1769583693.6638353,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "558": {
+      "first_seen": 1769583693.8177876,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "559": {
+      "first_seen": 1769583698.325091,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "560": {
+      "first_seen": 1769583698.7065034,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "561": {
+      "first_seen": 1769583698.7821577,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "562": {
+      "first_seen": 1769583702.4422023,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "563": {
+      "first_seen": 1769583702.9038188,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "564": {
+      "first_seen": 1769583704.6427777,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "565": {
+      "first_seen": 1769583705.2158823,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "566": {
+      "first_seen": 1769583710.5183,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "567": {
+      "first_seen": 1769583717.8819358,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "568": {
+      "first_seen": 1769583728.312685,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "569": {
+      "first_seen": 1769583729.0528975,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "570": {
+      "first_seen": 1769583732.5742333,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "571": {
+      "first_seen": 1769583735.2831738,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "572": {
+      "first_seen": 1769583737.1486344,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "573": {
+      "first_seen": 1769583738.746751,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "574": {
+      "first_seen": 1769583741.8167126,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "575": {
+      "first_seen": 1769583744.0991123,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "576": {
+      "first_seen": 1769583745.0232103,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "577": {
+      "first_seen": 1769583748.1637022,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "578": {
+      "first_seen": 1769583751.9677207,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "579": {
+      "first_seen": 1769583753.4540675,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "580": {
+      "first_seen": 1769583756.8276227,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "581": {
+      "first_seen": 1769583758.9113257,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "582": {
+      "first_seen": 1769583766.1516707,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "583": {
+      "first_seen": 1769583769.3476725,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "584": {
+      "first_seen": 1769583771.6503875,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "585": {
+      "first_seen": 1769583773.4236388,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "586": {
+      "first_seen": 1769583777.119766,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "587": {
+      "first_seen": 1769583781.1951299,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "588": {
+      "first_seen": 1769583781.5409255,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "589": {
+      "first_seen": 1769583788.168587,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "590": {
+      "first_seen": 1769583792.3178294,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "591": {
+      "first_seen": 1769583794.118593,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "592": {
+      "first_seen": 1769583796.6084793,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "593": {
+      "first_seen": 1769583799.3167663,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "594": {
+      "first_seen": 1769583800.8783228,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "595": {
+      "first_seen": 1769583810.4391513,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "596": {
+      "first_seen": 1769583810.5971463,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "597": {
+      "first_seen": 1769583812.5375366,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "598": {
+      "first_seen": 1769583812.9197335,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "599": {
+      "first_seen": 1769583813.9406354,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "600": {
+      "first_seen": 1769583817.8186717,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "601": {
+      "first_seen": 1769583817.8187277,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "602": {
+      "first_seen": 1769583820.474059,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "603": {
+      "first_seen": 1769583820.7701917,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "604": {
+      "first_seen": 1769583821.2217398,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "605": {
+      "first_seen": 1769583821.4521332,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "606": {
+      "first_seen": 1769583822.2030742,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "607": {
+      "first_seen": 1769583822.580038,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "608": {
+      "first_seen": 1769583822.8900862,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "609": {
+      "first_seen": 1769583823.5918107,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "610": {
+      "first_seen": 1769583823.7433655,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "611": {
+      "first_seen": 1769583823.9026523,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "612": {
+      "first_seen": 1769583824.143267,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "613": {
+      "first_seen": 1769583826.2345884,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "614": {
+      "first_seen": 1769583830.62777,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "615": {
+      "first_seen": 1769583831.835431,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "616": {
+      "first_seen": 1769583836.856777,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "617": {
+      "first_seen": 1769583838.5182357,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "618": {
+      "first_seen": 1769583839.8038702,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "619": {
+      "first_seen": 1769583843.47304,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "620": {
+      "first_seen": 1769583843.7936106,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "621": {
+      "first_seen": 1769583849.5788987,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "622": {
+      "first_seen": 1769583849.753202,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "623": {
+      "first_seen": 1769583850.7611735,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "624": {
+      "first_seen": 1769583850.8459654,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "625": {
+      "first_seen": 1769583851.54462,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "626": {
+      "first_seen": 1769583852.0688725,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "627": {
+      "first_seen": 1769583852.5940979,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "628": {
+      "first_seen": 1769583853.3094878,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "629": {
+      "first_seen": 1769583853.9334645,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "630": {
+      "first_seen": 1769583859.3193703,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "631": {
+      "first_seen": 1769583860.4373562,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "632": {
+      "first_seen": 1769583862.1157255,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "633": {
+      "first_seen": 1769583863.1869347,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "634": {
+      "first_seen": 1769583863.424321,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "635": {
+      "first_seen": 1769583864.8845208,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "636": {
+      "first_seen": 1769583865.8287437,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "637": {
+      "first_seen": 1769583865.9111164,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "638": {
+      "first_seen": 1769583867.372799,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "639": {
+      "first_seen": 1769583867.5375638,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "640": {
+      "first_seen": 1769583867.8694787,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "641": {
+      "first_seen": 1769583871.576234,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "642": {
+      "first_seen": 1769583873.0955944,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "643": {
+      "first_seen": 1769583876.948955,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "644": {
+      "first_seen": 1769583877.031214,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "645": {
+      "first_seen": 1769583880.0537565,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "646": {
+      "first_seen": 1769583886.95466,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "647": {
+      "first_seen": 1769583893.103513,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "648": {
+      "first_seen": 1769583893.4875882,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "649": {
+      "first_seen": 1769583896.0775225,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "650": {
+      "first_seen": 1769583896.0775633,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "651": {
+      "first_seen": 1769583896.2432184,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "652": {
+      "first_seen": 1769583898.5882602,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "653": {
+      "first_seen": 1769583900.3221161,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "654": {
+      "first_seen": 1769583901.6114104,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "655": {
+      "first_seen": 1769583901.9979281,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "656": {
+      "first_seen": 1769583903.9312303,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "657": {
+      "first_seen": 1769583904.985342,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "658": {
+      "first_seen": 1769583907.568183,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "659": {
+      "first_seen": 1769583911.621789,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "660": {
+      "first_seen": 1769583913.1452756,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "661": {
+      "first_seen": 1769583917.5869937,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "662": {
+      "first_seen": 1769583917.6686468,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "663": {
+      "first_seen": 1769583917.7527993,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "664": {
+      "first_seen": 1769583917.9140573,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "665": {
+      "first_seen": 1769583918.3307126,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "666": {
+      "first_seen": 1769583920.1660073,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "667": {
+      "first_seen": 1769583922.7017608,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "668": {
+      "first_seen": 1769583923.8967028,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "669": {
+      "first_seen": 1769583926.1322665,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "670": {
+      "first_seen": 1769583929.1220336,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "671": {
+      "first_seen": 1769583934.1343374,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "672": {
+      "first_seen": 1769583935.9072013,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "673": {
+      "first_seen": 1769583937.6374607,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "674": {
+      "first_seen": 1769583937.8877842,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "675": {
+      "first_seen": 1769583944.6389797,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "676": {
+      "first_seen": 1769583944.8062124,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "677": {
+      "first_seen": 1769583947.024331,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "678": {
+      "first_seen": 1769583951.1216068,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "679": {
+      "first_seen": 1769583955.3988938,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "680": {
+      "first_seen": 1769583958.2393913,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "681": {
+      "first_seen": 1769583971.5300825,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "682": {
+      "first_seen": 1769583980.8674445,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "683": {
+      "first_seen": 1769583981.1042438,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "684": {
+      "first_seen": 1769583986.193173,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "685": {
+      "first_seen": 1769583994.0171342,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "686": {
+      "first_seen": 1769584005.4108002,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "687": {
+      "first_seen": 1769584011.6939452,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "688": {
+      "first_seen": 1769584012.0041165,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "689": {
+      "first_seen": 1769584012.0042417,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "690": {
+      "first_seen": 1769584027.2163796,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "691": {
+      "first_seen": 1769584033.8314843,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "692": {
+      "first_seen": 1769584036.3758066,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "693": {
+      "first_seen": 1769584036.375927,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "694": {
+      "first_seen": 1769584036.5237937,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "695": {
+      "first_seen": 1769584038.2500892,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "696": {
+      "first_seen": 1769584041.50736,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "697": {
+      "first_seen": 1769584044.8409708,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "698": {
+      "first_seen": 1769584044.9178555,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "699": {
+      "first_seen": 1769584045.8503344,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "700": {
+      "first_seen": 1769584048.6775575,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "701": {
+      "first_seen": 1769584049.1473901,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "702": {
+      "first_seen": 1769584049.241009,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "703": {
+      "first_seen": 1769584049.4294102,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "704": {
+      "first_seen": 1769584049.6129298,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "705": {
+      "first_seen": 1769584053.1123166,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "706": {
+      "first_seen": 1769584054.2149546,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "707": {
+      "first_seen": 1769584056.2735622,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "708": {
+      "first_seen": 1769584058.2622352,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "709": {
+      "first_seen": 1769584058.6487842,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "710": {
+      "first_seen": 1769584062.3862236,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "711": {
+      "first_seen": 1769584062.9057543,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "712": {
+      "first_seen": 1769584063.174647,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "713": {
+      "first_seen": 1769584063.425154,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "714": {
+      "first_seen": 1769584064.1946838,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "715": {
+      "first_seen": 1769584066.5461092,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "716": {
+      "first_seen": 1769584066.5461361,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "717": {
+      "first_seen": 1769584066.7851434,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "718": {
+      "first_seen": 1769584068.5687604,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "719": {
+      "first_seen": 1769584069.0460558,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "720": {
+      "first_seen": 1769584071.2354693,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "721": {
+      "first_seen": 1769584076.2940793,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "722": {
+      "first_seen": 1769584077.2080705,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "723": {
+      "first_seen": 1769584080.430409,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "724": {
+      "first_seen": 1769584082.752791,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "725": {
+      "first_seen": 1769584088.2148485,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "726": {
+      "first_seen": 1769584088.2962713,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "727": {
+      "first_seen": 1769584090.0511081,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "728": {
+      "first_seen": 1769584090.5880892,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "729": {
+      "first_seen": 1769584090.8916585,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "730": {
+      "first_seen": 1769584096.1345048,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "731": {
+      "first_seen": 1769584104.6656034,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "732": {
+      "first_seen": 1769584104.6656888,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "733": {
+      "first_seen": 1769584104.9010985,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "734": {
+      "first_seen": 1769584105.6027415,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "735": {
+      "first_seen": 1769584107.8048103,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "736": {
+      "first_seen": 1769584108.4581065,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "737": {
+      "first_seen": 1769584108.9701998,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "738": {
+      "first_seen": 1769584112.366668,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "739": {
+      "first_seen": 1769584113.328024,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "740": {
+      "first_seen": 1769584113.4060059,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "741": {
+      "first_seen": 1769584113.5590584,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "742": {
+      "first_seen": 1769584114.2355185,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "743": {
+      "first_seen": 1769584118.8167765,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "744": {
+      "first_seen": 1769584121.2861547,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "745": {
+      "first_seen": 1769584122.0122752,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "746": {
+      "first_seen": 1769584131.0103512,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "747": {
+      "first_seen": 1769584131.240105,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "748": {
+      "first_seen": 1769584133.6990302,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "749": {
+      "first_seen": 1769584134.3537729,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "750": {
+      "first_seen": 1769584135.7397587,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "751": {
+      "first_seen": 1769584137.1413038,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "752": {
+      "first_seen": 1769584140.0542586,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "753": {
+      "first_seen": 1769584144.8167064,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "754": {
+      "first_seen": 1769584145.595741,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "755": {
+      "first_seen": 1769584148.2804306,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "756": {
+      "first_seen": 1769584152.4917736,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "757": {
+      "first_seen": 1769584152.6476035,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "758": {
+      "first_seen": 1769584153.817318,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "759": {
+      "first_seen": 1769584153.9746497,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "760": {
+      "first_seen": 1769584154.2784333,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "761": {
+      "first_seen": 1769584154.7355523,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "762": {
+      "first_seen": 1769584154.884076,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "763": {
+      "first_seen": 1769584154.961763,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "764": {
+      "first_seen": 1769584157.89432,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "765": {
+      "first_seen": 1769584158.546452,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "766": {
+      "first_seen": 1769584159.2690284,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "767": {
+      "first_seen": 1769584159.5072181,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "768": {
+      "first_seen": 1769584160.6429343,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "769": {
+      "first_seen": 1769584162.7238843,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "770": {
+      "first_seen": 1769584163.0379963,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "771": {
+      "first_seen": 1769584163.7326014,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "772": {
+      "first_seen": 1769584164.5243986,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "773": {
+      "first_seen": 1769584164.8403974,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "774": {
+      "first_seen": 1769584164.9990647,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "775": {
+      "first_seen": 1769584165.32201,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "776": {
+      "first_seen": 1769584167.3517919,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "777": {
+      "first_seen": 1769584168.5990095,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "778": {
+      "first_seen": 1769584171.533314,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "779": {
+      "first_seen": 1769584171.7740633,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "780": {
+      "first_seen": 1769584171.8506463,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "781": {
+      "first_seen": 1769584172.6941547,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "782": {
+      "first_seen": 1769584175.8010514,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "783": {
+      "first_seen": 1769584176.7412179,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "784": {
+      "first_seen": 1769584178.403122,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "785": {
+      "first_seen": 1769584179.0482802,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "786": {
+      "first_seen": 1769584179.0483162,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "787": {
+      "first_seen": 1769584181.4000554,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "788": {
+      "first_seen": 1769584183.5908113,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "789": {
+      "first_seen": 1769584183.7488716,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "790": {
+      "first_seen": 1769584189.6705146,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "791": {
+      "first_seen": 1769584191.2634444,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "792": {
+      "first_seen": 1769584191.7775092,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "793": {
+      "first_seen": 1769584191.9470162,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "794": {
+      "first_seen": 1769584193.041357,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "795": {
+      "first_seen": 1769584196.4832437,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "796": {
+      "first_seen": 1769584198.2929251,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "797": {
+      "first_seen": 1769584202.2819638,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "798": {
+      "first_seen": 1769584206.2740562,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "799": {
+      "first_seen": 1769584207.758876,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "800": {
+      "first_seen": 1769584210.1119678,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "801": {
+      "first_seen": 1769584210.3915703,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "802": {
+      "first_seen": 1769584210.9209418,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "803": {
+      "first_seen": 1769584213.1398354,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "804": {
+      "first_seen": 1769584215.3538578,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "805": {
+      "first_seen": 1769584217.6818933,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "806": {
+      "first_seen": 1769584224.211871,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "807": {
+      "first_seen": 1769584228.5765474,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "808": {
+      "first_seen": 1769584229.399805,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "809": {
+      "first_seen": 1769584232.2770805,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "810": {
+      "first_seen": 1769584240.777185,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "811": {
+      "first_seen": 1769584242.4375503,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "812": {
+      "first_seen": 1769584244.254615,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "813": {
+      "first_seen": 1769584249.2309036,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "814": {
+      "first_seen": 1769584250.3366966,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "815": {
+      "first_seen": 1769584259.5711083,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "816": {
+      "first_seen": 1769584267.1949732,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "817": {
+      "first_seen": 1769584269.116111,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "818": {
+      "first_seen": 1769584271.331735,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "819": {
+      "first_seen": 1769584273.112133,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "820": {
+      "first_seen": 1769584273.368209,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "821": {
+      "first_seen": 1769584276.9351137,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "822": {
+      "first_seen": 1769584277.2600791,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "823": {
+      "first_seen": 1769584277.421032,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "824": {
+      "first_seen": 1769584280.0501373,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "825": {
+      "first_seen": 1769584282.149149,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "826": {
+      "first_seen": 1769584282.2501752,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "827": {
+      "first_seen": 1769584283.5715673,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "828": {
+      "first_seen": 1769584289.585044,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "829": {
+      "first_seen": 1769584289.8369062,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "830": {
+      "first_seen": 1769584293.4182692,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "831": {
+      "first_seen": 1769584294.2844255,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "832": {
+      "first_seen": 1769584294.4558952,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "833": {
+      "first_seen": 1769584297.1593127,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "834": {
+      "first_seen": 1769584298.1767051,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "835": {
+      "first_seen": 1769584302.8870502,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "836": {
+      "first_seen": 1769584305.0212972,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "837": {
+      "first_seen": 1769584305.8200276,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "838": {
+      "first_seen": 1769584309.6417701,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "839": {
+      "first_seen": 1769584311.662538,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "840": {
+      "first_seen": 1769584313.439437,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "841": {
+      "first_seen": 1769584313.6823082,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "842": {
+      "first_seen": 1769584318.2658908,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "843": {
+      "first_seen": 1769584320.8462327,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "844": {
+      "first_seen": 1769584321.7867787,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "845": {
+      "first_seen": 1769584321.8706517,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "846": {
+      "first_seen": 1769584321.870728,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "847": {
+      "first_seen": 1769584321.9544437,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "848": {
+      "first_seen": 1769584321.9544718,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "849": {
+      "first_seen": 1769584323.0083952,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "850": {
+      "first_seen": 1769584325.3218448,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "851": {
+      "first_seen": 1769584326.6166239,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "852": {
+      "first_seen": 1769584326.7748735,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "853": {
+      "first_seen": 1769584326.7749286,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "854": {
+      "first_seen": 1769584327.0787444,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "855": {
+      "first_seen": 1769584327.690592,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "856": {
+      "first_seen": 1769584328.0033436,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "857": {
+      "first_seen": 1769584328.1614823,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "858": {
+      "first_seen": 1769584328.244719,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "859": {
+      "first_seen": 1769584330.4974804,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "860": {
+      "first_seen": 1769584330.8249233,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "861": {
+      "first_seen": 1769584331.2392187,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "862": {
+      "first_seen": 1769584334.5376263,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "863": {
+      "first_seen": 1769584336.1407938,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "864": {
+      "first_seen": 1769584336.8549252,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "865": {
+      "first_seen": 1769584339.5988553,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "866": {
+      "first_seen": 1769584339.8434985,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "867": {
+      "first_seen": 1769584345.3150876,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "868": {
+      "first_seen": 1769584352.7675815,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "869": {
+      "first_seen": 1769584356.3746235,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "870": {
+      "first_seen": 1769584356.592845,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "871": {
+      "first_seen": 1769584357.404857,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "872": {
+      "first_seen": 1769584367.5379376,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "873": {
+      "first_seen": 1769584368.222719,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "874": {
+      "first_seen": 1769584369.3158178,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "875": {
+      "first_seen": 1769584372.9780831,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "876": {
+      "first_seen": 1769584373.793238,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "877": {
+      "first_seen": 1769584373.8694367,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "878": {
+      "first_seen": 1769584373.8694875,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "879": {
+      "first_seen": 1769584381.3684056,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "880": {
+      "first_seen": 1769584384.280916,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "881": {
+      "first_seen": 1769584394.762046,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "882": {
+      "first_seen": 1769584395.88358,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "883": {
+      "first_seen": 1769584400.5866916,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "884": {
+      "first_seen": 1769584400.6715903,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "885": {
+      "first_seen": 1769584409.592319,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "886": {
+      "first_seen": 1769584409.987071,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "887": {
+      "first_seen": 1769584410.4949088,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "888": {
+      "first_seen": 1769584411.7346947,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "889": {
+      "first_seen": 1769584415.1272185,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "890": {
+      "first_seen": 1769584417.0944502,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "891": {
+      "first_seen": 1769584419.7915418,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "892": {
+      "first_seen": 1769584422.0672371,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "893": {
+      "first_seen": 1769584422.0673034,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "894": {
+      "first_seen": 1769584422.298656,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "895": {
+      "first_seen": 1769584429.541062,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "896": {
+      "first_seen": 1769584437.974577,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "897": {
+      "first_seen": 1769584439.183485,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "898": {
+      "first_seen": 1769584444.1945672,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "899": {
+      "first_seen": 1769584445.602451,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "900": {
+      "first_seen": 1769584447.2399397,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "901": {
+      "first_seen": 1769584447.3230274,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "902": {
+      "first_seen": 1769584452.555746,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "903": {
+      "first_seen": 1769584453.6007009,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "904": {
+      "first_seen": 1769584454.887099,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "905": {
+      "first_seen": 1769584455.7626646,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "906": {
+      "first_seen": 1769584456.3825254,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "907": {
+      "first_seen": 1769584456.605956,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "908": {
+      "first_seen": 1769584456.8301673,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "909": {
+      "first_seen": 1769584457.433585,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "910": {
+      "first_seen": 1769584457.9611945,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "911": {
+      "first_seen": 1769584458.265062,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "912": {
+      "first_seen": 1769584458.7401452,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "913": {
+      "first_seen": 1769584459.041298,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "914": {
+      "first_seen": 1769584459.1967747,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "915": {
+      "first_seen": 1769584459.2734616,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "916": {
+      "first_seen": 1769584461.1693306,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "917": {
+      "first_seen": 1769584461.9168768,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "918": {
+      "first_seen": 1769584462.5990293,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "919": {
+      "first_seen": 1769584463.4429586,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "920": {
+      "first_seen": 1769584465.1659684,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "921": {
+      "first_seen": 1769584467.519973,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "922": {
+      "first_seen": 1769584473.4941866,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "923": {
+      "first_seen": 1769584473.4942214,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "924": {
+      "first_seen": 1769584473.8000727,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "925": {
+      "first_seen": 1769584474.2464757,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "926": {
+      "first_seen": 1769584476.8924618,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "927": {
+      "first_seen": 1769584481.3117633,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "928": {
+      "first_seen": 1769584484.8874822,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "929": {
+      "first_seen": 1769584486.9576592,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "930": {
+      "first_seen": 1769584487.6945465,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "931": {
+      "first_seen": 1769584488.9395306,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "932": {
+      "first_seen": 1769584489.8328474,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "933": {
+      "first_seen": 1769584492.9092152,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "934": {
+      "first_seen": 1769584494.4827106,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "935": {
+      "first_seen": 1769584495.5906985,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "936": {
+      "first_seen": 1769584503.6724143,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "937": {
+      "first_seen": 1769584504.0311553,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "938": {
+      "first_seen": 1769584506.3859992,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "939": {
+      "first_seen": 1769584507.2120094,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "940": {
+      "first_seen": 1769584511.8994186,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "941": {
+      "first_seen": 1769584519.4129446,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "942": {
+      "first_seen": 1769584522.0181916,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "943": {
+      "first_seen": 1769584522.6952434,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "944": {
+      "first_seen": 1769584524.4191563,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "945": {
+      "first_seen": 1769584533.2199504,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "946": {
+      "first_seen": 1769584533.593808,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "947": {
+      "first_seen": 1769584537.4438984,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "948": {
+      "first_seen": 1769584538.7934163,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "949": {
+      "first_seen": 1769584541.853193,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "950": {
+      "first_seen": 1769584544.5638669,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "951": {
+      "first_seen": 1769584546.8954046,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "952": {
+      "first_seen": 1769584550.9500616,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "953": {
+      "first_seen": 1769584553.5435023,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "954": {
+      "first_seen": 1769584555.0397658,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    },
+    "955": {
+      "first_seen": 1769584559.736031,
+      "total_idle_time": 0,
+      "idle_events": 0,
+      "last_status": "ACTIVE"
+    }
+  },
+  "events": [
+    {
+      "timestamp": "2026-01-28T06:52:48.219979",
+      "type": "status_change",
+      "employee_id": 354,
+      "details": {
+        "from": "ACTIVE",
+        "to": "IDLE",
+        "idle_time": 11.315146207809448
+      }
+    },
+    {
+      "timestamp": "2026-01-28T06:52:48.945469",
+      "type": "status_change",
+      "employee_id": 354,
+      "details": {
+        "from": "IDLE",
+        "to": "ACTIVE",
+        "idle_time": 8.911687850952148
+      }
+    },
+    {
+      "timestamp": "2026-01-28T07:01:25.835536",
+      "type": "status_change",
+      "employee_id": 527,
+      "details": {
+        "from": "ACTIVE",
+        "to": "IDLE",
+        "idle_time": 12.179072380065918
+      }
+    },
+    {
+      "timestamp": "2026-01-28T07:01:32.255354",
+      "type": "status_change",
+      "employee_id": 527,
+      "details": {
+        "from": "IDLE",
+        "to": "ACTIVE",
+        "idle_time": 0
+      }
+    },
+    {
+      "timestamp": "2026-01-28T07:01:33.816030",
+      "type": "status_change",
+      "employee_id": 527,
+      "details": {
+        "from": "ACTIVE",
+        "to": "IDLE",
+        "idle_time": 13.1282958984375
+      }
+    }
+  ],
+  "summary": {
+    "total_employees_tracked": 955,
+    "total_idle_events": 3,
+    "session_duration_seconds": 2121.105896,
+    "end_time": "2026-01-28T07:16:00.953715"
+  }
+}
