@@ -12,6 +12,21 @@ class EmployeeTracker:
         self.using_video_file = False
         self.privacy_mode = privacy_mode
         
+        # Tracking configuration (set early)
+        self.idle_threshold = idle_threshold_seconds
+        self.font = cv2.FONT_HERSHEY_SIMPLEX
+        self.running = False
+        
+        # Tracking data structures
+        self.employees = {}
+        self.next_employee_id = 1
+        self.max_disappeared = 90
+        
+        # ID persistence settings
+        self.iou_threshold = 0.2
+        self.feature_weight = 0.5
+        self.min_confidence = 0.25
+        
         # Create insights folder
         self.insights_folder = "insights"
         os.makedirs(self.insights_folder, exist_ok=True)
@@ -31,7 +46,7 @@ class EmployeeTracker:
             "events": []
         }
         
-        # Video writer (will be initialized in run())
+        # Video writer
         self.video_writer = None
         
         # If video file specified, use it
@@ -44,7 +59,6 @@ class EmployeeTracker:
             else:
                 raise RuntimeError(f"Failed to open video file: {video_file}")
         else:
-            # Try different camera configurations
             configs = [
                 (1, cv2.CAP_ANY, "video1 with AUTO backend"),
                 (0, cv2.CAP_ANY, "video0 with AUTO backend"),
@@ -66,72 +80,93 @@ class EmployeeTracker:
                             self.camera = cap
                             break
                         else:
-                            print(f"  ✗ Camera opens but can't read frames")
                             cap.release()
                     else:
                         cap.release()
                 except Exception as e:
-                    print(f"  ✗ Error: {e}")
                     continue
             
             if not self.camera or not self.camera.isOpened():
-                print("\n❌ No camera found!")
-                print("💡 TIP: Running in WSL? Use video file mode:")
-                print("   tracker = EmployeeTracker(video_file='test_video.mp4')")
                 raise RuntimeError("Failed to open camera")
         
-        # Get actual resolution
-        actual_width = int(self.camera.get(cv2.CAP_PROP_FRAME_WIDTH))
-        actual_height = int(self.camera.get(cv2.CAP_PROP_FRAME_HEIGHT))
-        self.frame_width = actual_width
-        self.frame_height = actual_height
-        print(f"Resolution: {actual_width}x{actual_height}")
+        # Get resolution
+        self.frame_width = int(self.camera.get(cv2.CAP_PROP_FRAME_WIDTH))
+        self.frame_height = int(self.camera.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        
+        print(f"Resolution: {self.frame_width}x{self.frame_height}")
+        print("\n🎯 Tracking Configuration:")
+        print(f"   Max Disappeared Frames: {self.max_disappeared} (allows {self.max_disappeared/30:.1f}s occlusion)")
+        print(f"   IoU Threshold: {self.iou_threshold}")
+        print(f"   Feature Weight: {self.feature_weight}")
+        print(f"   Min Confidence: {self.min_confidence}")
         print("Ready!")
         
-        self.idle_threshold = idle_threshold_seconds
-        self.font = cv2.FONT_HERSHEY_SIMPLEX
-        self.running = False
-        
-        # Initialize CPU-friendly HOG person detector
+        # Initialize HOG
         self.hog = cv2.HOGDescriptor()
         self.hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
         
-        # Tracking data structures
-        self.employees = {}
-        self.next_employee_id = 1
-        self.max_disappeared = 30
-        
-        # Heatmap setup
+        # Heatmap
         self.heatmap_resolution = (64, 36)
         self.heatmap = np.zeros((self.heatmap_resolution[1], self.heatmap_resolution[0]), dtype=np.float32)
     
     def _apply_privacy_filter(self, frame):
-        """Apply privacy filter to obscure faces/identities"""
         if not self.privacy_mode:
             return frame
-        
         overlay = np.ones_like(frame) * 255
         alpha = 0.4
-        blurred = cv2.addWeighted(frame, 1 - alpha, overlay, alpha, 0)
-        return blurred
+        return cv2.addWeighted(frame, 1 - alpha, overlay, alpha, 0)
     
     def _extract_features(self, frame, bbox):
-        """Extract simple color histogram features for re-identification"""
         x, y, w, h = bbox
+        pad = 5
+        x = max(0, x - pad)
+        y = max(0, y - pad)
+        w = min(frame.shape[1] - x, w + 2*pad)
+        h = min(frame.shape[0] - y, h + 2*pad)
+        
         roi = frame[y:y+h, x:x+w]
         
-        if roi.size == 0:
+        if roi.size == 0 or roi.shape[0] < 10 or roi.shape[1] < 10:
             return None
-            
-        roi = cv2.resize(roi, (64, 128))
-        hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
-        hist = cv2.calcHist([hsv], [0, 1], None, [8, 8], [0, 180, 0, 256])
-        cv2.normalize(hist, hist)
         
-        return hist.flatten()
+        try:
+            roi = cv2.resize(roi, (64, 128))
+            hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+            
+            upper = hsv[:64, :]
+            hist_upper = cv2.calcHist([upper], [0, 1], None, [12, 12], [0, 180, 0, 256])
+            cv2.normalize(hist_upper, hist_upper)
+            
+            hist_full = cv2.calcHist([hsv], [0, 1], None, [8, 8], [0, 180, 0, 256])
+            cv2.normalize(hist_full, hist_full)
+            
+            features = np.concatenate([hist_upper.flatten() * 0.7, hist_full.flatten() * 0.3])
+            return features
+        except:
+            return None
+    
+    def _calculate_distance(self, pos1, pos2):
+        return np.sqrt((pos1[0] - pos2[0])**2 + (pos1[1] - pos2[1])**2)
+    
+    def _predict_position(self, emp_data):
+        if len(emp_data['positions']) < 2:
+            return emp_data['positions'][-1]
+        
+        positions = list(emp_data['positions'])
+        if len(positions) >= 3:
+            recent = positions[-3:]
+            vx = (recent[-1][0] - recent[0][0]) / 2
+            vy = (recent[-1][1] - recent[0][1]) / 2
+        else:
+            vx = positions[-1][0] - positions[-2][0]
+            vy = positions[-1][1] - positions[-2][1]
+        
+        pred_x = int(positions[-1][0] + vx)
+        pred_y = int(positions[-1][1] + vy)
+        
+        return (pred_x, pred_y)
     
     def _calculate_iou(self, box1, box2):
-        """Calculate Intersection over Union for box matching"""
         x1, y1, w1, h1 = box1
         x2, y2, w2, h2 = box2
         
@@ -148,7 +183,6 @@ class EmployeeTracker:
         return inter_area / union_area if union_area > 0 else 0
     
     def _create_employee(self, bbox, frame):
-        """Create a new tracked employee"""
         features = self._extract_features(frame, bbox)
         x, y, w, h = bbox
         
@@ -169,7 +203,6 @@ class EmployeeTracker:
         self.next_employee_id += 1
     
     def _update_employee(self, emp_id, bbox, frame):
-        """Update an existing employee's tracking data"""
         x, y, w, h = bbox
         center = (x + w//2, y + h//2)
         
@@ -178,64 +211,107 @@ class EmployeeTracker:
         self.employees[emp_id]['timestamps'].append(time.time())
         self.employees[emp_id]['disappeared'] = 0
         
-        if len(self.employees[emp_id]['positions']) % 10 == 0:
+        if len(self.employees[emp_id]['positions']) % 5 == 0:
             features = self._extract_features(frame, bbox)
             if features is not None:
                 old_features = self.employees[emp_id]['features']
                 if old_features is not None:
-                    self.employees[emp_id]['features'] = 0.7 * old_features + 0.3 * features
+                    self.employees[emp_id]['features'] = 0.85 * old_features + 0.15 * features
                 else:
                     self.employees[emp_id]['features'] = features
     
     def _match_employees(self, detections, frame):
-        """Match current detections with tracked employees"""
         if len(self.employees) == 0:
             for detection in detections:
                 self._create_employee(detection, frame)
             return
         
-        matched = set()
+        matched_detections = set()
+        matched_employees = set()
         
         for detection in detections:
             best_match_id = None
             best_score = 0
             
+            det_center = (detection[0] + detection[2]//2, detection[1] + detection[3]//2)
+            
             for emp_id, emp_data in self.employees.items():
-                if emp_id in matched:
+                if emp_id in matched_employees:
                     continue
                 
                 iou = self._calculate_iou(detection, emp_data['bbox'])
                 
+                if len(emp_data['positions']) > 0:
+                    predicted_pos = self._predict_position(emp_data)
+                    distance = self._calculate_distance(det_center, predicted_pos)
+                    max_distance = 200
+                    distance_score = max(0, 1 - distance / max_distance)
+                else:
+                    distance_score = 0
+                
                 det_features = self._extract_features(frame, detection)
                 if det_features is not None and emp_data['features'] is not None:
-                    similarity = cv2.compareHist(
-                        det_features.reshape(-1, 1),
-                        emp_data['features'].reshape(-1, 1),
-                        cv2.HISTCMP_CORREL
-                    )
+                    try:
+                        similarity = cv2.compareHist(
+                            det_features.reshape(-1, 1),
+                            emp_data['features'].reshape(-1, 1),
+                            cv2.HISTCMP_CORREL
+                        )
+                        similarity = max(0, similarity)
+                    except:
+                        similarity = 0
                 else:
                     similarity = 0
                 
-                score = 0.7 * iou + 0.3 * max(0, similarity)
+                if iou > 0.3:
+                    score = 0.6 * iou + 0.3 * similarity + 0.1 * distance_score
+                else:
+                    score = 0.3 * iou + 0.5 * similarity + 0.2 * distance_score
                 
-                if score > best_score and score > 0.3:
+                if emp_data['disappeared'] > 0:
+                    score *= 1.2
+                
+                if score > best_score and score > self.min_confidence:
                     best_score = score
                     best_match_id = emp_id
             
             if best_match_id is not None:
                 self._update_employee(best_match_id, detection, frame)
-                matched.add(best_match_id)
-            else:
-                self._create_employee(detection, frame)
+                matched_detections.add(detections.index(detection))
+                matched_employees.add(best_match_id)
+        
+        for i, detection in enumerate(detections):
+            if i not in matched_detections:
+                should_create = True
+                
+                for emp_id, emp_data in self.employees.items():
+                    if emp_id in matched_employees:
+                        continue
+                    
+                    if emp_data['disappeared'] > 0 and emp_data['disappeared'] < 30:
+                        det_center = (detection[0] + detection[2]//2, detection[1] + detection[3]//2)
+                        if len(emp_data['positions']) > 0:
+                            last_pos = emp_data['positions'][-1]
+                            distance = self._calculate_distance(det_center, last_pos)
+                            
+                            if distance < 100:
+                                self._update_employee(emp_id, detection, frame)
+                                matched_employees.add(emp_id)
+                                should_create = False
+                                break
+                
+                if should_create:
+                    self._create_employee(detection, frame)
         
         for emp_id in list(self.employees.keys()):
-            if emp_id not in matched:
+            if emp_id not in matched_employees:
                 self.employees[emp_id]['disappeared'] += 1
+                
                 if self.employees[emp_id]['disappeared'] > self.max_disappeared:
+                    print(f"Employee {emp_id} lost track")
                     del self.employees[emp_id]
     
     def _calculate_idle_time(self, emp_id):
-        """Calculate how long an employee has been idle (in seconds)"""
         if emp_id not in self.employees:
             return 0
         
@@ -263,7 +339,6 @@ class EmployeeTracker:
         return 0
     
     def _update_heatmap(self):
-        """Update the heatmap based on employee positions and idle times"""
         self.heatmap *= 0.95
         
         for emp_id, emp_data in self.employees.items():
@@ -290,7 +365,6 @@ class EmployeeTracker:
                         self.heatmap[ny, nx] = min(1.0, self.heatmap[ny, nx] + intensity * weight * 0.1)
     
     def _draw_heatmap_overlay(self, frame):
-        """Draw heatmap overlay on frame"""
         frame_h, frame_w = frame.shape[:2]
         heatmap_resized = cv2.resize(self.heatmap, (frame_w, frame_h))
         
@@ -304,7 +378,6 @@ class EmployeeTracker:
         return result
     
     def _log_event(self, event_type, emp_id=None, details=None):
-        """Log events for insights"""
         event = {
             "timestamp": datetime.now().isoformat(),
             "type": event_type,
@@ -314,7 +387,6 @@ class EmployeeTracker:
         self.insights_data["events"].append(event)
     
     def _update_employee_insights(self, emp_id):
-        """Update employee statistics"""
         if emp_id not in self.employees:
             return
         
@@ -343,7 +415,6 @@ class EmployeeTracker:
                 emp_insights["idle_events"] += 1
     
     def _save_insights(self):
-        """Save insights to JSON file"""
         total_employees = len(self.insights_data["employees"])
         total_idle_events = sum(e["idle_events"] for e in self.insights_data["employees"].values())
         
@@ -375,7 +446,6 @@ class EmployeeTracker:
         print(f"   Idle Events: {total_idle_events}")
     
     def run(self):
-        """Main tracking loop"""
         self.running = True
         mode_str = "VIDEO FILE" if self.using_video_file else "LIVE CAMERA"
         print(f"Employee Tracking System ({mode_str}) - Press 'q' to quit, 'h' to toggle heatmap, 'r' to restart video")
@@ -384,12 +454,11 @@ class EmployeeTracker:
         frame_skip = 2
         frame_count = 0
         
-        # Initialize video writer
         output_path = os.path.join(self.output_folder, f"analyzed_{self.session_id}.mp4")
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
         fps = 30 if not self.using_video_file else self.camera.get(cv2.CAP_PROP_FPS)
         if fps == 0 or fps > 60:
-            fps = 30  # Default fallback
+            fps = 30
         self.video_writer = cv2.VideoWriter(output_path, fourcc, fps, 
                                            (self.frame_width, self.frame_height))
         
@@ -449,8 +518,15 @@ class EmployeeTracker:
                 cv2.rectangle(display_frame, (x, y), (x+w, y+h), box_color, 2)
                 
                 label = f"EMP-{emp_id:03d} | {status}"
+                label_size = cv2.getTextSize(label, self.font, 0.5, 2)[0]
+                cv2.rectangle(display_frame, (x, y-label_size[1]-10), 
+                            (x+label_size[0], y), box_color, -1)
                 cv2.putText(display_frame, label, (x, y-10), 
-                           self.font, 0.5, box_color, 2)
+                           self.font, 0.5, (255, 255, 255), 2)
+                
+                if emp_data['disappeared'] > 0:
+                    cv2.putText(display_frame, "REAPPEARED", (x, y+h+20),
+                               self.font, 0.4, (0, 255, 255), 1)
                 
                 if idle_time > 2:
                     time_label = f"Idle: {idle_time:.1f}s"
@@ -470,12 +546,10 @@ class EmployeeTracker:
             cv2.putText(display_frame, info_text, (10, 30),
                        self.font, 0.6, (255, 255, 255), 2)
             
-            # Add recording indicator
             cv2.circle(display_frame, (self.frame_width - 30, 30), 8, (0, 0, 255), -1)
             cv2.putText(display_frame, "REC", (self.frame_width - 70, 35),
                        self.font, 0.5, (0, 0, 255), 2)
             
-            # Write frame to output video
             if self.video_writer is not None:
                 self.video_writer.write(display_frame)
             
@@ -495,8 +569,6 @@ class EmployeeTracker:
         self.cleanup()
     
     def cleanup(self):
-        """Release resources and save insights"""
-        # Release video writer first
         if self.video_writer is not None:
             self.video_writer.release()
             print(f"✅ Analyzed video saved to: output_videos/analyzed_{self.session_id}.mp4")

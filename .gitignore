@@ -1,1 +1,4 @@
-myenv
+myenv/
+output_videos/
+*.mp4
+*.so
